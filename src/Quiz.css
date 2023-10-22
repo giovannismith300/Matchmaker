@@ -1,0 +1,37 @@
+.answerChoice{
+    border-radius: 30px;
+    width: 200px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.answerChoice:hover{
+    color: white;
+    background-color: black;
+    transition: .7s;
+}
+
+
+.backButton:hover{
+    color: white;
+    background-color: black;
+    transition: .7s;
+    
+
+}
+
+.backButton{
+    border-radius: 10px;
+    width: 150px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    color: black;
+
+}

@@ -1,0 +1,37 @@
+
+
+.nextButton:hover{
+    color: white;
+    background-color: black;
+    transition: .7s;
+    
+
+}
+
+.nextButton{
+    border-radius: 30px;
+    width: 150px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    color: black;
+
+}
+
+.textBox{
+    border-color: black;
+    border-radius: 20px;
+    width: 400px;
+    padding: 10px;
+    border-style: solid;
+    font-size: 18px;
+    text-align: center;
+
+}
+.textBox:focus{
+    outline: 0;
+
+}
+.question{
+    color: black;
+}
