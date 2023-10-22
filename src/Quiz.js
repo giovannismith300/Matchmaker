@@ -110,6 +110,7 @@ const Quiz = () => {
       
      { complete ? (<div className="container mt-4">
         <h1 style={{fontFamily: "Pacifico", fontSize: "90px", color: "black"}}> Thank You!</h1>
+        <h5 style={{fontFamily: "Quicksand", color: "black", marginTop: 20}} > [Your responses have been successfully recorded]</h5>
      </div>):(
     <div className=" mt-4 " style={{width: "100%"}}>
       {currentQuestionIndex < questions.length ? (
@@ -147,7 +148,7 @@ const Quiz = () => {
         
         <div className="container ml-5">
             {currentQuestionIndex > 0 ? (
-                <button className="backButton btn-lg mt-5 ml-5"
+                <button className="backButton btn-lg mt-3 ml-5"
                 onClick = {() => {
                     previousQuestion();
                     
@@ -163,16 +164,16 @@ const Quiz = () => {
         </>
       ) : (
           <div>
-          <h1 style={{color: "black", fontFamily: "Pacifico"}}>Quiz Completed!</h1>
+          <h1 style={{color: "black", fontFamily: "Pacifico"}}>Survey Completed!</h1>
           <div className= "container d-flex justify-content-center ">
-            <button className="backButton btn-lg mt-5 ml-5 mx-1"
+            <button className="backButton btn-lg mt-3 ml-5 mx-1"
                     onClick = {() => {
                         previousQuestion();
                         
                         }}> Back 
             </button>
 
-            <button className="backButton btn-lg mt-5 ml-5 mx-1"  
+            <button className="backButton btn-lg mt-3 ml-5 mx-1"  
             
             onClick={submitQuiz}>
                 Submit
