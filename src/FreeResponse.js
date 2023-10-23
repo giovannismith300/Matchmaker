@@ -66,6 +66,12 @@ const FreeResponse = () => {
             description: "major",
             placeholder: "Enter your response here..."
              },
+        {
+            id: 9,
+            question: "Which part of the African Diaspora do you belong to?",
+            description: "africa",
+            placeholder: "Enter your response here..."
+             },
 
         
 
@@ -95,7 +101,7 @@ const FreeResponse = () => {
         setAnswers(  { ...answers, [questions[currentQuestionIndex].description]: answer })
         navigate("/Quiz")
         responses= answers
-        responses.major = answer;
+        responses.africa = answer;
         
        
         console.log(responses)

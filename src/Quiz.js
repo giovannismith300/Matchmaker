@@ -60,24 +60,18 @@ const Quiz = () => {
     },
     {
       id: 3,
-      question: 'Which part of the African Diaspora do you belong to? ',
-      options: ['South Africa', 'North Africa', 'West Africa', 'East Africa', 'Not directly from Africa, Carribean!', 'Not directly from Africa, just happy to be here!'],
-      description: "africa"
-    },
-    {
-      id: 4,
       question: 'Favorite thing to do in your free time?',
       options: ['Read', 'Watch TV', 'Dance! Or Another Art', 'Shopping', 'Napping', 'A Sport'],
       description: "hobby"
     },
     {
-      id: 5,
+      id: 4,
       question: 'What Res College do/did you rep?',
       options: ['Mathey', 'Rocky', 'Butler', 'Whitman', 'Forbes', 'Yeh', 'NCW'],
       description: "resCollege"
     },
     {
-      id: 6,
+      id: 5,
       question: 'Favorite Dining Hall?',
       options: ['Yeh/NCW', 'Forbes', 'Roma', 'Whitman/Butler :('],
       description: "dining"
